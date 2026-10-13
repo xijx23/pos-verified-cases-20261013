@@ -1,0 +1,27 @@
+# ED 二次经济调度与网络约束 (ed_quadratic_case24)
+
+基于目录内标准 MATPOWER/IEEE 表格 `ed_quadratic_case24.xlsx` 建模。表格中的 `Bus`、`Gen`、`Branch`、`Gencost` 是系统基础参数来源。 本算例为 24 时段安全约束经济调度，所有可用机组视为在线，不建模启停变量。
+
+per-unit load 曲线如下：
+
+```text
+[0.60, 0.56, 0.53, 0.52, 0.55, 0.65, 0.81, 0.96, 1.08, 1.12, 1.09, 1.02, 0.96, 0.92, 0.91, 0.96, 1.05, 1.14, 1.18, 1.10, 1.00, 0.88, 0.76, 0.65]
+```
+
+## 决策变量
+
+- 机组出力 `p[i,t]`。
+- 母线相角 `theta[b,t]`。
+- 线路潮流 `flow[l,t]`。
+
+## 约束条件
+
+1. `GenStatus = 1` 的机组满足 `GenPMin <= p <= GenPMax`，`GenStatus = 0` 的机组出力为 0。
+2. 相邻时段爬坡上/下限为 `0.30 * GenPMax[i]`。
+3. 每个母线、每个时段满足 DC 节点功率平衡。
+4. 线路潮流由相角差和 `BranchReactance` 决定，并满足 `BranchRateA`；参考母线为 `BusType == 3`。
+5. 备用容量约束：在线可用容量余量至少覆盖当期总负荷的 `0.05`。
+
+## 目标函数
+
+最小化 `sum_t sum_i (Gencost.COST_3[i] * p[i,t]^2 + Gencost.COST_2[i] * p[i,t] + Gencost.COST_1[i])`。不允许引入 UC 启停变量。加入非 UC 备用容量约束。

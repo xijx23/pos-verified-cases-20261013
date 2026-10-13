@@ -1,0 +1,28 @@
+{
+  "case": "ed_quadratic_case57",
+  "status": "PASS",
+  "pos_status": 2,
+  "reference_status": 2,
+  "pos_objective": 607777.5843616611,
+  "reference_objective": 607777.5843559871,
+  "archived_reference_objective": 607777.5843612584,
+  "absolute_objective_difference": 5.673966370522976e-06,
+  "objective_recompute_error": 1.280568540096283e-09,
+  "pos_constraint_violation": 6.55077059263931e-09,
+  "pos_bound_violation": 0.0,
+  "reference_quality_on_pos_solution": {
+    "max_row_violation": 6.55077059263931e-09,
+    "worst_row": "balance_base1[22,21]",
+    "max_bound_violation": 0
+  },
+  "parameter_mapping": "PASS",
+  "negative_control": "PASS",
+  "total_shed": 0,
+  "variables": 3768,
+  "constraints": 8834,
+  "reference_variables": 3768,
+  "reference_constraints": 4538,
+  "solver": "12.0.3",
+  "feasibility_tolerance": 1e-05,
+  "absolute_objective_tolerance": 0.001
+}

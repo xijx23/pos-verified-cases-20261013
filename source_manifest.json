@@ -1,0 +1,541 @@
+[
+  {
+    "source": "problems/ed_quadratic_case24/agent_graph_trace.json",
+    "path": "cases/ed_quadratic_case24/agent_graph_trace.json",
+    "source_sha256": "c481f6d7c00f7adf04fa17eb077b081d245f6ada61a8aca7ba8eb883ce041fdb",
+    "public_sha256": "54e504c5d529fdcbf7ef3d19ee3dd66062b4bb4a3113ae7930ce6b2df9acc402",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/ed_quadratic_case24/batch_stderr.txt",
+    "path": "cases/ed_quadratic_case24/batch_stderr.txt",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_copy_changed": false
+  },
+  {
+    "source": "problems/ed_quadratic_case24/batch_stdout.txt",
+    "path": "cases/ed_quadratic_case24/batch_stdout.txt",
+    "source_sha256": "5b71bf76f6db6af256a5899d9bcc1547050b809eb8668f9933608b41d8df80d9",
+    "public_sha256": "fcb04d3b54befd9f9e1cb174b197696481c5a3acc519352e112e0cb80ac6e488",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/ed_quadratic_case24/data.json",
+    "path": "cases/ed_quadratic_case24/data.json",
+    "source_sha256": "c5d015bde0518a78cbf35daba75620517257a0037b61932bbe58b12f6bf056c5",
+    "public_sha256": "7771487674a05b3ef3d8564ae57cb5029425fd3aa5a01b9926180a8f633e8952",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/ed_quadratic_case24/desc.txt",
+    "path": "cases/ed_quadratic_case24/desc.txt",
+    "source_sha256": "d43fb34ee0da558d037d4528e35f815d28f7a8bec99a80713ddbafd3f5e32599",
+    "public_sha256": "d43fb34ee0da558d037d4528e35f815d28f7a8bec99a80713ddbafd3f5e32599",
+    "public_copy_changed": false
+  },
+  {
+    "source": "problems/ed_quadratic_case24/ed_quadratic_case24.xlsx",
+    "path": "cases/ed_quadratic_case24/ed_quadratic_case24.xlsx",
+    "source_sha256": "0edcef61d3686b3e0f93bd7d33131527f4671d8c1d9df67519346f7c62ef404e",
+    "public_sha256": "0edcef61d3686b3e0f93bd7d33131527f4671d8c1d9df67519346f7c62ef404e",
+    "public_copy_changed": false
+  },
+  {
+    "source": "problems/ed_quadratic_case24/execution_report.json",
+    "path": "cases/ed_quadratic_case24/execution_report.json",
+    "source_sha256": "3a7f585e7c05c8d26fd88bcd9da639bfb4045c0339ee6e77555827b8d17613d7",
+    "public_sha256": "b89dd9d403e55286b987596a9444e1ec172bbcb4b6eba42f232049140afdddb4",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/ed_quadratic_case24/model_artifact.json",
+    "path": "cases/ed_quadratic_case24/model_artifact.json",
+    "source_sha256": "a5146d7dc6d44cdc023088bb8818053c868b8a57f3063ec7083feb066cab90ee",
+    "public_sha256": "228df5f3c853678eac16384b783cf13ad4a909e39ca6b1e132bb2e0cbed80270",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/ed_quadratic_case24/modeling_context.json",
+    "path": "cases/ed_quadratic_case24/modeling_context.json",
+    "source_sha256": "f0f1020ff296cb59c881642747d6f3ad9b1193fef1e20150e170bb4db71c9194",
+    "public_sha256": "0377ee651420db90a9e8ea6dac6fbccf5b6b234fdf2187388d2ff72d908f0089",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/ed_quadratic_case24/modeling_layer_log.json",
+    "path": "cases/ed_quadratic_case24/modeling_layer_log.json",
+    "source_sha256": "65d08ee5a64a2035cb585800b65f77e1edc297d09ca5bc5ef85b854cc9eeebb2",
+    "public_sha256": "7a1010a5e62eb73eaac8cd01e45370a24d505ea323a18ea5ffc710743fc3275e",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/ed_quadratic_case24/parameter_artifact.json",
+    "path": "cases/ed_quadratic_case24/parameter_artifact.json",
+    "source_sha256": "daf42720639758998667c82e64a192758bbce5c0a700477e719bd05dce73b288",
+    "public_sha256": "3a7c77e55502aa218c14c03968fcfc4804711dd10e0ecba716f2a943f257ce70",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/ed_quadratic_case24/params.json",
+    "path": "cases/ed_quadratic_case24/params.json",
+    "source_sha256": "6382c0b049e6463f97bac1850c6b27e3cd33d046f9f6ffe889fb9e17df282aec",
+    "public_sha256": "74766763b917507186142c06ca330580fd6c19d2eff4a09bd724e3810ce0a2e3",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/ed_quadratic_case24/preparation_layer_log.json",
+    "path": "cases/ed_quadratic_case24/preparation_layer_log.json",
+    "source_sha256": "463234a5d0efbdfbccc970c494d737416ee999a1415b379bb91f7e79d685d7c1",
+    "public_sha256": "9297607ce94ee5f977f415be3f7901c27c75b1c1906aa6cb2c4d8b0be79bdd64",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/ed_quadratic_case24/solve_model.py",
+    "path": "cases/ed_quadratic_case24/solve_model.py",
+    "source_sha256": "05c55d86e8e6e2f9c6f549ff1acafea8163ad8836f64d42a0e8194baa8baa2dd",
+    "public_sha256": "05c55d86e8e6e2f9c6f549ff1acafea8163ad8836f64d42a0e8194baa8baa2dd",
+    "public_copy_changed": false
+  },
+  {
+    "source": "problems/ed_quadratic_case24/stantard_value.json",
+    "path": "cases/ed_quadratic_case24/stantard_value.json",
+    "source_sha256": "2503ba0838158dc53a53b5c7b074a318d4a9ebf85b23e9138c2f1d2c4d633147",
+    "public_sha256": "c84dd1a0045dd108a08b8a57f58d9f5e078a04df7ddb378a4b05577ce2322ef7",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/ed_quadratic_case30/agent_graph_trace.json",
+    "path": "cases/ed_quadratic_case30/agent_graph_trace.json",
+    "source_sha256": "c481f6d7c00f7adf04fa17eb077b081d245f6ada61a8aca7ba8eb883ce041fdb",
+    "public_sha256": "54e504c5d529fdcbf7ef3d19ee3dd66062b4bb4a3113ae7930ce6b2df9acc402",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/ed_quadratic_case30/batch_stderr.txt",
+    "path": "cases/ed_quadratic_case30/batch_stderr.txt",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_copy_changed": false
+  },
+  {
+    "source": "problems/ed_quadratic_case30/batch_stdout.txt",
+    "path": "cases/ed_quadratic_case30/batch_stdout.txt",
+    "source_sha256": "bfad208433ed3fba896247bf0d7fc37e71085ed39409052fbff6c399334a7f8c",
+    "public_sha256": "021707a449992c4bfdaef6bed1086ed95dafa702628c14938cbe1721ea30c152",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/ed_quadratic_case30/data.json",
+    "path": "cases/ed_quadratic_case30/data.json",
+    "source_sha256": "a40bd0116141f001f58b6f2176d159a05af5bb0b8f41b7220e0069d52c8c5709",
+    "public_sha256": "cac64c24400e89812c6b579ac632060ece81ac2870e42203be59c6b6c230acb6",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/ed_quadratic_case30/desc.txt",
+    "path": "cases/ed_quadratic_case30/desc.txt",
+    "source_sha256": "5b7b235d2b420553bd8ff7f671a81228f443cb8e308ea93fbb7e24ad0836626d",
+    "public_sha256": "5b7b235d2b420553bd8ff7f671a81228f443cb8e308ea93fbb7e24ad0836626d",
+    "public_copy_changed": false
+  },
+  {
+    "source": "problems/ed_quadratic_case30/ed_quadratic_case30.xlsx",
+    "path": "cases/ed_quadratic_case30/ed_quadratic_case30.xlsx",
+    "source_sha256": "aa7be94d7438b5a981285789774d86f520b0dd9e941e1d9455c72d080d6ae6ba",
+    "public_sha256": "aa7be94d7438b5a981285789774d86f520b0dd9e941e1d9455c72d080d6ae6ba",
+    "public_copy_changed": false
+  },
+  {
+    "source": "problems/ed_quadratic_case30/execution_report.json",
+    "path": "cases/ed_quadratic_case30/execution_report.json",
+    "source_sha256": "b54b9986ed05cf044c96cbfaaae6e4c8b8dd1a98591670a1b7e3498a110003fa",
+    "public_sha256": "32516292578d6feff3ae0e91a52a863feb4fa20295c0945f671267f5cf681c30",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/ed_quadratic_case30/model_artifact.json",
+    "path": "cases/ed_quadratic_case30/model_artifact.json",
+    "source_sha256": "146852a9dc956c79d664ca123e6ca24ebb205bcb55c30690e9a55a734bbc3862",
+    "public_sha256": "96354d4fb048e9ae2943a830c40ca4adb11f497f6de21e1bce13347f1e1583c1",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/ed_quadratic_case30/modeling_context.json",
+    "path": "cases/ed_quadratic_case30/modeling_context.json",
+    "source_sha256": "06dfa982b6956a35559e6dd8420812070e9d3a73288a1c9fcb194f762a387ea1",
+    "public_sha256": "ba5a162c603f363b7016f55595b010740eaf4299600531a4d4454cf6acfcbe1b",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/ed_quadratic_case30/modeling_layer_log.json",
+    "path": "cases/ed_quadratic_case30/modeling_layer_log.json",
+    "source_sha256": "83ba689e3c950603922e0d2db2bc0d3cd7f05607e835173e102fac7d4ae111f4",
+    "public_sha256": "038635b91030b7ffdacf3490a00069900abd6cd5f584238cf21f886e98e4b5a7",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/ed_quadratic_case30/parameter_artifact.json",
+    "path": "cases/ed_quadratic_case30/parameter_artifact.json",
+    "source_sha256": "d9ed777bd69990c2fb90df85edd625db95ede2cc1b7629bd747242e9c6322268",
+    "public_sha256": "3679d1273697110d0cac19232b58e6e6ca1cb75408282a14f16eeebce4865639",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/ed_quadratic_case30/params.json",
+    "path": "cases/ed_quadratic_case30/params.json",
+    "source_sha256": "92d3253e74c2c67e2734cefaf1b6de9b459bbe8613d1a7be54700d1a3c1d2afd",
+    "public_sha256": "56f12fc893a955d41f23f2876d5d2cbcdd13c01264d2605139b1352cf30bc5bc",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/ed_quadratic_case30/preparation_layer_log.json",
+    "path": "cases/ed_quadratic_case30/preparation_layer_log.json",
+    "source_sha256": "f71b3069f15400ccdd49acfad4d4a54caad642c4a21ecb3a86f57bf3ba77384c",
+    "public_sha256": "5f896798e1ffee16b69da8ef82e1c02e2af101591a3da19885ec8757f34dec35",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/ed_quadratic_case30/solve_model.py",
+    "path": "cases/ed_quadratic_case30/solve_model.py",
+    "source_sha256": "9d41b8a3d2b56146a933528e7e0fa1c6fce6cd6fd54426c620046b65a0e58b1a",
+    "public_sha256": "9d41b8a3d2b56146a933528e7e0fa1c6fce6cd6fd54426c620046b65a0e58b1a",
+    "public_copy_changed": false
+  },
+  {
+    "source": "problems/ed_quadratic_case30/stantard_value.json",
+    "path": "cases/ed_quadratic_case30/stantard_value.json",
+    "source_sha256": "3de606cc654ffe6e6df44e232f6e61a2e21735918da77f246ddbb50b4836dcb5",
+    "public_sha256": "15d31fcb2c40844d3013db8fb5a60c67ff9b36517fbec0b4c7f60314a050e33c",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/ed_quadratic_case57/agent_graph_trace.json",
+    "path": "cases/ed_quadratic_case57/agent_graph_trace.json",
+    "source_sha256": "c481f6d7c00f7adf04fa17eb077b081d245f6ada61a8aca7ba8eb883ce041fdb",
+    "public_sha256": "54e504c5d529fdcbf7ef3d19ee3dd66062b4bb4a3113ae7930ce6b2df9acc402",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/ed_quadratic_case57/batch_stderr.txt",
+    "path": "cases/ed_quadratic_case57/batch_stderr.txt",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_copy_changed": false
+  },
+  {
+    "source": "problems/ed_quadratic_case57/batch_stdout.txt",
+    "path": "cases/ed_quadratic_case57/batch_stdout.txt",
+    "source_sha256": "a8527cceb602f0f5501c30315e1c731801eb51964b34aebd73a5eaccc48b9229",
+    "public_sha256": "38f801e87770949ce5fdf99a34b7af6f881924929005ee2beb7bc90241e838bf",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/ed_quadratic_case57/data.json",
+    "path": "cases/ed_quadratic_case57/data.json",
+    "source_sha256": "e10c4ac91ea545bb005a990d27169ec6b8ae2d26f881ab55204c45bc6716e6fb",
+    "public_sha256": "0fbd595a0f6362f9bc6f27f08a0b5a7c40ce403ec7f16d5a9dc8917381f21533",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/ed_quadratic_case57/desc.txt",
+    "path": "cases/ed_quadratic_case57/desc.txt",
+    "source_sha256": "1f85292b5e9f91f0224a0096f428d7d131f45fdc323c9b80810727f300b4f7c4",
+    "public_sha256": "1f85292b5e9f91f0224a0096f428d7d131f45fdc323c9b80810727f300b4f7c4",
+    "public_copy_changed": false
+  },
+  {
+    "source": "problems/ed_quadratic_case57/ed_quadratic_case57.xlsx",
+    "path": "cases/ed_quadratic_case57/ed_quadratic_case57.xlsx",
+    "source_sha256": "a60a9973d031035656d8c61d8bdd84814c12586aa8fc9473b1b8332c292fd477",
+    "public_sha256": "a60a9973d031035656d8c61d8bdd84814c12586aa8fc9473b1b8332c292fd477",
+    "public_copy_changed": false
+  },
+  {
+    "source": "problems/ed_quadratic_case57/execution_report.json",
+    "path": "cases/ed_quadratic_case57/execution_report.json",
+    "source_sha256": "cba6b2aaf510c8b1b2116893aefb465cd785b097fce76cce248d177a66db554c",
+    "public_sha256": "901209036d7a5338c688d945c5a9ab03ea2db822f5224c881ba7019df1cd7cda",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/ed_quadratic_case57/model_artifact.json",
+    "path": "cases/ed_quadratic_case57/model_artifact.json",
+    "source_sha256": "87e8afa04c1875670b242ed67003bb10e2748b63d671e047a9edff326db72efc",
+    "public_sha256": "07625b594feda6be28c329428504e6dbf05ec2851fd62ebb2fd3103028fea7a4",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/ed_quadratic_case57/modeling_context.json",
+    "path": "cases/ed_quadratic_case57/modeling_context.json",
+    "source_sha256": "7ad73f8377f8c0d86096e27fd62619cff31de90e5c335849a39a734717e43df3",
+    "public_sha256": "3e2321f3fb95352e3e0a49041df905f64a6ed7c74f462b7f62c91deb6b5cd299",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/ed_quadratic_case57/modeling_layer_log.json",
+    "path": "cases/ed_quadratic_case57/modeling_layer_log.json",
+    "source_sha256": "6d7f992eee75131dfb25ee7f43b902c287205014015df01a876da4c890709c1b",
+    "public_sha256": "d6756331744b171477ea8a0d33a46dc28106f99a75a7a5edfa6021312cf5d8c7",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/ed_quadratic_case57/parameter_artifact.json",
+    "path": "cases/ed_quadratic_case57/parameter_artifact.json",
+    "source_sha256": "60c2efa816dce5d2c51d09326e39f65ce68f8b14ad1f6d6adc2ff478b59c44dc",
+    "public_sha256": "609a7c43544967f7f8cb476f59579a5f1ba63f782d22808960914df853bb4725",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/ed_quadratic_case57/params.json",
+    "path": "cases/ed_quadratic_case57/params.json",
+    "source_sha256": "36ffb1d3a8aae688387b919c3fc27889ee53dc7e952004a60e393e5f150ccd6e",
+    "public_sha256": "894c16be97fa7acd917d799aea78347c86fba3ca5a13058aab8d32ebbc5574e5",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/ed_quadratic_case57/preparation_layer_log.json",
+    "path": "cases/ed_quadratic_case57/preparation_layer_log.json",
+    "source_sha256": "785bec3c644722c0e60ef81d6ed8a7ec90684ddfa5de4fb670a642f12169d4d4",
+    "public_sha256": "ddd3fc0843855da275c8f653f22a8e38db921182ca076f20f33136cbb92017a6",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/ed_quadratic_case57/solve_model.py",
+    "path": "cases/ed_quadratic_case57/solve_model.py",
+    "source_sha256": "3bf0e58bc89eb357052c14ff8017cd66f2e031b838fd1dc773b3a9e1beeb64bd",
+    "public_sha256": "3bf0e58bc89eb357052c14ff8017cd66f2e031b838fd1dc773b3a9e1beeb64bd",
+    "public_copy_changed": false
+  },
+  {
+    "source": "problems/ed_quadratic_case57/stantard_value.json",
+    "path": "cases/ed_quadratic_case57/stantard_value.json",
+    "source_sha256": "50ea1401552b01ee6a095dea9b219330ee8a5591b36f1ee0f201ee12d5c29db5",
+    "public_sha256": "3c4b1f00a984d843202545c3649508d3cc6fedb4f7101e69e9db8072d710265f",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/opf_load_shedding_case30/agent_graph_trace.json",
+    "path": "cases/opf_load_shedding_case30/agent_graph_trace.json",
+    "source_sha256": "c481f6d7c00f7adf04fa17eb077b081d245f6ada61a8aca7ba8eb883ce041fdb",
+    "public_sha256": "54e504c5d529fdcbf7ef3d19ee3dd66062b4bb4a3113ae7930ce6b2df9acc402",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/opf_load_shedding_case30/batch_stderr.txt",
+    "path": "cases/opf_load_shedding_case30/batch_stderr.txt",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_copy_changed": false
+  },
+  {
+    "source": "problems/opf_load_shedding_case30/batch_stdout.txt",
+    "path": "cases/opf_load_shedding_case30/batch_stdout.txt",
+    "source_sha256": "a8ad2e0eb9a21fb34e7103a1b1e48eef1769da309c6e022535525e156626db36",
+    "public_sha256": "ebe468550222265ae63acbd69593e2040bdc2a6a116c0befb5cf3279e5f76f5f",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/opf_load_shedding_case30/data.json",
+    "path": "cases/opf_load_shedding_case30/data.json",
+    "source_sha256": "8232ce7302bab8c69dc480bded705fca6f77fe8ec2800fd127bdf88845859036",
+    "public_sha256": "aae3de7968fdb9b549c46936937ee9c721e70d2283035100149ef01a71800604",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/opf_load_shedding_case30/desc.txt",
+    "path": "cases/opf_load_shedding_case30/desc.txt",
+    "source_sha256": "981ceef0bab833398f40537b2ae7d20d63c62bf9a539733f992b8d7599f3cf15",
+    "public_sha256": "981ceef0bab833398f40537b2ae7d20d63c62bf9a539733f992b8d7599f3cf15",
+    "public_copy_changed": false
+  },
+  {
+    "source": "problems/opf_load_shedding_case30/execution_report.json",
+    "path": "cases/opf_load_shedding_case30/execution_report.json",
+    "source_sha256": "1edb6a190f5173bf550dd87db87571bdbaa0d7a3ac6e6ba8540e9563dec01220",
+    "public_sha256": "a722c371fd5e34ed87da4d241362a2bfbd751a21c770f66c82d96b30815574f1",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/opf_load_shedding_case30/model_artifact.json",
+    "path": "cases/opf_load_shedding_case30/model_artifact.json",
+    "source_sha256": "4ddca76c9f157357825e936483f943ce7db733bdc4c7855be90076ed6ce65ed1",
+    "public_sha256": "4c716cbd0efe24da8913480e28f4612607710f0cb6aac1c109a8330169c44105",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/opf_load_shedding_case30/modeling_context.json",
+    "path": "cases/opf_load_shedding_case30/modeling_context.json",
+    "source_sha256": "a7d92fbdaaeeb08950a1f28550fccdcf799aebf0206354985d60609fff92cd62",
+    "public_sha256": "b9466886e49c588a14beac3ef3d5777f2f568d8e6d488f691808f6ad59d3a3a3",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/opf_load_shedding_case30/modeling_layer_log.json",
+    "path": "cases/opf_load_shedding_case30/modeling_layer_log.json",
+    "source_sha256": "1a3b3ccb5edbd8c9b373457e1a3eb0348c30340673ffbc8994d692fd133dd89c",
+    "public_sha256": "9485880c03653a3f606e49635a049c6239ba7620b68d60c5b39d901ada8c74a1",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/opf_load_shedding_case30/opf_load_shedding_case30.xlsx",
+    "path": "cases/opf_load_shedding_case30/opf_load_shedding_case30.xlsx",
+    "source_sha256": "8dd98639b189aa480297e95531b762114ab47a4000801c8fa72573f20c129543",
+    "public_sha256": "8dd98639b189aa480297e95531b762114ab47a4000801c8fa72573f20c129543",
+    "public_copy_changed": false
+  },
+  {
+    "source": "problems/opf_load_shedding_case30/parameter_artifact.json",
+    "path": "cases/opf_load_shedding_case30/parameter_artifact.json",
+    "source_sha256": "40a6f8cc1d15806f5bee8f750d9b590a39eb68447677222b1b61a18f4bd08422",
+    "public_sha256": "81c1570934e60bccdafc982d8d4da7d529a85ee9b7d26a70a7544d138a309ee8",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/opf_load_shedding_case30/params.json",
+    "path": "cases/opf_load_shedding_case30/params.json",
+    "source_sha256": "72d9c6395da58b4229026676200e847d47ebfb59d650ad1e564ba67991b36547",
+    "public_sha256": "0f6b1ab29908714dadb9aae4e8ba3ac6bcd793fec08e1f6ea10d0d93b4d3cf47",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/opf_load_shedding_case30/preparation_layer_log.json",
+    "path": "cases/opf_load_shedding_case30/preparation_layer_log.json",
+    "source_sha256": "74ddb277ed6ced4e21f07aeaec6cbea956cc1d2fa5d4ef27aebc13550c5dd95c",
+    "public_sha256": "1cf9605931f82d5d238cbf508de743abfdc791957386003c1fff9873bbdb3e24",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/opf_load_shedding_case30/solve_model.py",
+    "path": "cases/opf_load_shedding_case30/solve_model.py",
+    "source_sha256": "96b9eaceb4118570cfbcce679d08f3a2b205562f933ecf183b9a1d4879b64fc6",
+    "public_sha256": "96b9eaceb4118570cfbcce679d08f3a2b205562f933ecf183b9a1d4879b64fc6",
+    "public_copy_changed": false
+  },
+  {
+    "source": "problems/opf_load_shedding_case30/stantard_value.json",
+    "path": "cases/opf_load_shedding_case30/stantard_value.json",
+    "source_sha256": "241113c615d6f1b697f5fcf4b99467c7a0a2a94d2674d2c20d93bd08a7dc5bac",
+    "public_sha256": "99d604e97b2d6686c9cb14b30799a50b90fc48310c7a2c0a988991e406f29029",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/opf_load_shedding_case57/agent_graph_trace.json",
+    "path": "cases/opf_load_shedding_case57/agent_graph_trace.json",
+    "source_sha256": "c481f6d7c00f7adf04fa17eb077b081d245f6ada61a8aca7ba8eb883ce041fdb",
+    "public_sha256": "54e504c5d529fdcbf7ef3d19ee3dd66062b4bb4a3113ae7930ce6b2df9acc402",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/opf_load_shedding_case57/batch_stderr.txt",
+    "path": "cases/opf_load_shedding_case57/batch_stderr.txt",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "public_copy_changed": false
+  },
+  {
+    "source": "problems/opf_load_shedding_case57/batch_stdout.txt",
+    "path": "cases/opf_load_shedding_case57/batch_stdout.txt",
+    "source_sha256": "2704654ca18bc06cc6c37b17a058672957bed42d0bb72aa61c16d24c30a6bee6",
+    "public_sha256": "1a9f8a6436d10ec72145699d9df12029d7d100f4cc2913656ccbb908c8911674",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/opf_load_shedding_case57/data.json",
+    "path": "cases/opf_load_shedding_case57/data.json",
+    "source_sha256": "09193d554f4ad493889d714e9e3e35ca1003e42307aaa7d257acc1a4c79503a6",
+    "public_sha256": "220ce634d78111b6473748a899a47643bb1352378c87727695899e0db8cc04d0",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/opf_load_shedding_case57/desc.txt",
+    "path": "cases/opf_load_shedding_case57/desc.txt",
+    "source_sha256": "d2430814daef0815f9585b7522b202dd259a27bbb709123a9c56041ecdc6670b",
+    "public_sha256": "d2430814daef0815f9585b7522b202dd259a27bbb709123a9c56041ecdc6670b",
+    "public_copy_changed": false
+  },
+  {
+    "source": "problems/opf_load_shedding_case57/execution_report.json",
+    "path": "cases/opf_load_shedding_case57/execution_report.json",
+    "source_sha256": "cd34897f4bf63049278e5eb3eea5fc4341f6d6247e5802edeee6119e17cc3f0c",
+    "public_sha256": "977da0a21c4829012eaa5a81ef817f8e99832ad07ddff051fae48ed3e4b24608",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/opf_load_shedding_case57/model_artifact.json",
+    "path": "cases/opf_load_shedding_case57/model_artifact.json",
+    "source_sha256": "5a2f152220d1098a2ed52b36cf89281a346fe72f3b7e7bedb9dd9c08ccba86fb",
+    "public_sha256": "182b58ab9a5b55f0d82798ec739b369b09c23df7ba20f67632cc779ef8d38bfd",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/opf_load_shedding_case57/modeling_context.json",
+    "path": "cases/opf_load_shedding_case57/modeling_context.json",
+    "source_sha256": "0cd6a76f9c9ad1f39adb674a47c95616a7ce84b3d24cd0ee77d42bd3d665fb15",
+    "public_sha256": "d4fd558a6794d4ae16a83d9d21f69bc5db81914fa6acec3635de59f172002b0f",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/opf_load_shedding_case57/modeling_layer_log.json",
+    "path": "cases/opf_load_shedding_case57/modeling_layer_log.json",
+    "source_sha256": "e0d708d827668e624c81c13724737302d9de764769e30102681b89526849b2b4",
+    "public_sha256": "4acc77fecb6c7051b7939ad88ef4890fe66e33ea4aa691be58248a6cc517aec8",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/opf_load_shedding_case57/opf_load_shedding_case57.xlsx",
+    "path": "cases/opf_load_shedding_case57/opf_load_shedding_case57.xlsx",
+    "source_sha256": "2f88639af1e3afcf66cff9060134295395c2cecc33f77f7076c23a4e94d2ff18",
+    "public_sha256": "2f88639af1e3afcf66cff9060134295395c2cecc33f77f7076c23a4e94d2ff18",
+    "public_copy_changed": false
+  },
+  {
+    "source": "problems/opf_load_shedding_case57/parameter_artifact.json",
+    "path": "cases/opf_load_shedding_case57/parameter_artifact.json",
+    "source_sha256": "03514b8f0cda6d189d2a9e38d467a5f03d146d22e37c599e5517da6a20ebe304",
+    "public_sha256": "b9dfd4c1f92e10de771eb87f3d16c232f0780b25eaa869bfdfe21d1478f6ad1c",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/opf_load_shedding_case57/params.json",
+    "path": "cases/opf_load_shedding_case57/params.json",
+    "source_sha256": "1d316f1a750c37589277d39c9327d2230bae29146593f428a0c1040821626593",
+    "public_sha256": "11ff3b20ecd26394fe1fe46e1dd0ede4679c7935f157f291bfefb4496efa105b",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/opf_load_shedding_case57/preparation_layer_log.json",
+    "path": "cases/opf_load_shedding_case57/preparation_layer_log.json",
+    "source_sha256": "0ea7c9f8ac46dd342f78211ddfb482f3cec2c60527e941e859c6c2d3d050eeba",
+    "public_sha256": "9bb9b3a56ee1a2193bb24d3762c1c9458764acc1ed8be239045f64b570d986ba",
+    "public_copy_changed": true
+  },
+  {
+    "source": "problems/opf_load_shedding_case57/solve_model.py",
+    "path": "cases/opf_load_shedding_case57/solve_model.py",
+    "source_sha256": "8593e1dce1a77cca957e8f25460a5a5511a75d6d14d9fde9067d28347f56675a",
+    "public_sha256": "8593e1dce1a77cca957e8f25460a5a5511a75d6d14d9fde9067d28347f56675a",
+    "public_copy_changed": false
+  },
+  {
+    "source": "problems/opf_load_shedding_case57/stantard_value.json",
+    "path": "cases/opf_load_shedding_case57/stantard_value.json",
+    "source_sha256": "9e578c5921f0bc6f20b320baa8de17cfd0f799313d3327fb09907b771ae180e3",
+    "public_sha256": "72b4e7df05ea9e4c11bd47ad1865e970cb7a6fdfad5325e27852800087f575dd",
+    "public_copy_changed": true
+  },
+  {
+    "source": "standard_calculation/solve_cases.py",
+    "path": "reference/solve_cases.py",
+    "source_sha256": "0e8227b3a06fe6ab6746d344f58f5a6cb5ccde162c93d831f6b05ecb6eabfe6b",
+    "public_sha256": "0e8227b3a06fe6ab6746d344f58f5a6cb5ccde162c93d831f6b05ecb6eabfe6b",
+    "public_copy_changed": false
+  },
+  {
+    "source": "standard_calculation/README.md",
+    "path": "reference/README.md",
+    "source_sha256": "432e62cd71325acac695593a8c63f9415fc315072e5f3b22ba46f26d4a19b814",
+    "public_sha256": "432e62cd71325acac695593a8c63f9415fc315072e5f3b22ba46f26d4a19b814",
+    "public_copy_changed": false
+  }
+]

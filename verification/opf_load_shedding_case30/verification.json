@@ -1,0 +1,28 @@
+{
+  "case": "opf_load_shedding_case30",
+  "status": "PASS",
+  "pos_status": 2,
+  "reference_status": 2,
+  "pos_objective": 336300.90482131013,
+  "reference_objective": 336300.90482131,
+  "archived_reference_objective": 336300.90482131,
+  "absolute_objective_difference": 1.1641532182693481e-10,
+  "objective_recompute_error": 3.4924596548080444e-10,
+  "pos_constraint_violation": 0.0,
+  "pos_bound_violation": 0.0,
+  "reference_quality_on_pos_solution": {
+    "max_row_violation": 6.252776074688882e-12,
+    "worst_row": "dc_base1[24,16]",
+    "max_bound_violation": 0
+  },
+  "parameter_mapping": "PASS",
+  "negative_control": "PASS",
+  "total_shed": 0.0,
+  "variables": 2784,
+  "constraints": 5672,
+  "reference_variables": 2784,
+  "reference_constraints": 2624,
+  "solver": "12.0.3",
+  "feasibility_tolerance": 1e-05,
+  "absolute_objective_tolerance": 0.001
+}

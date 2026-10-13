@@ -1,0 +1,18 @@
+[three-layer][preparation] building modeling_context.json
+[preparation] extracting parameters from standard table and description
+[preparation] preparing objective, variables, and atomic constraints
+[preparation] validation errors=0, warnings=0
+[three-layer][preparation] context ready
+[three-layer][modeling] modeling objective/constraints round 1
+[modeling] dispatching 10 dirty item agent(s), reusing 0 item(s)
+[modeling] formulas, snippets, and assembled solver code ready
+[three-layer][execution] precheck and execution attempt 1
+[execution] writing runtime files
+[execution] running deterministic precheck
+[execution] launching solver script
+[execution] script finished without detected solver issue
+[three-layer][execution] solver completed successfully
+[three-layer] modeling context: SOURCE_ROOT\problems\ed_quadratic_case57\modeling_context.json
+[three-layer] model artifact: SOURCE_ROOT\problems\ed_quadratic_case57\model_artifact.json
+[three-layer] execution report: SOURCE_ROOT\problems\ed_quadratic_case57\execution_report.json
+[three-layer] status: success

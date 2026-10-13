@@ -1,0 +1,30 @@
+{
+  "schema_version": "execution-report/v1",
+  "context_revision": 1,
+  "model_artifact_revision": 1,
+  "attempts": [
+    {
+      "attempt_index": 1,
+      "script_path": "SOURCE_ROOT\\problems\\opf_load_shedding_case57\\solve_model.py",
+      "data_path": "SOURCE_ROOT\\problems\\opf_load_shedding_case57\\data.json",
+      "precheck": {
+        "errors": [],
+        "warnings": [],
+        "diagnostics": []
+      },
+      "runtime": {
+        "returncode": 0,
+        "stdout": "Set parameter Username\nSet parameter LicenseID to value [REDACTED]\nAcademic license - for non-commercial use only - expires 2026-10-21\nSet parameter MIPGap to value 0.005\nGurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11+.0 (26200.2))\n\nCPU model: Intel(R) Core(TM) Ultra 9 275HX, instruction set [SSE2|AVX|AVX2]\nThread count: 24 physical cores, 24 logical processors, using up to 24 threads\n\nNon-default parameters:\nMIPGap  0.005\n\nOptimize a model with 9964 rows, 5064 columns and 19016 nonzeros\nModel fingerprint: 0xde062349\nCoefficient statistics:\n  Matrix range     [1e+00, 3e+03]\n  Objective range  [2e+01, 1e+04]\n  Bounds range     [0e+00, 0e+00]\n  RHS range        [9e+00, 7e+02]\nPresolve removed 7574 rows and 1440 columns\nPresolve time: 0.01s\nPresolved: 2390 rows, 3854 columns, 12114 nonzeros\n\nIteration    Objective       Primal Inf.    Dual Inf.      Time\n       0      handle free variables                          0s\n    1933    6.5727265e+05   0.000000e+00   0.000000e+00      0s\n\nSolved in 1933 iterations and 0.05 seconds (0.07 work units)\nOptimal objective  6.572726497e+05\nSTATUS 2\n",
+        "stderr": ""
+      }
+    }
+  ],
+  "precheck": {
+    "errors": [],
+    "warnings": [],
+    "diagnostics": []
+  },
+  "execution_status": "success",
+  "diagnostics": [],
+  "repair_requests": []
+}
