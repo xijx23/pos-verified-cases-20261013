@@ -5,8 +5,8 @@
   "attempts": [
     {
       "attempt_index": 1,
-      "script_path": "SOURCE_ROOT\\problems\\opf_load_shedding_case57\\solve_model.py",
-      "data_path": "SOURCE_ROOT\\problems\\opf_load_shedding_case57\\data.json",
+      "script_path": "solve_model.py",
+      "data_path": "data.json (parameters embedded in published solve_model.py)",
       "precheck": {
         "errors": [],
         "warnings": [],
@@ -14,7 +14,7 @@
       },
       "runtime": {
         "returncode": 0,
-        "stdout": "Set parameter Username\nSet parameter LicenseID to value [REDACTED]\nAcademic license - for non-commercial use only - expires 2026-10-21\nSet parameter MIPGap to value 0.005\nGurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11+.0 (26200.2))\n\nCPU model: Intel(R) Core(TM) Ultra 9 275HX, instruction set [SSE2|AVX|AVX2]\nThread count: 24 physical cores, 24 logical processors, using up to 24 threads\n\nNon-default parameters:\nMIPGap  0.005\n\nOptimize a model with 9964 rows, 5064 columns and 19016 nonzeros\nModel fingerprint: 0xde062349\nCoefficient statistics:\n  Matrix range     [1e+00, 3e+03]\n  Objective range  [2e+01, 1e+04]\n  Bounds range     [0e+00, 0e+00]\n  RHS range        [9e+00, 7e+02]\nPresolve removed 7574 rows and 1440 columns\nPresolve time: 0.01s\nPresolved: 2390 rows, 3854 columns, 12114 nonzeros\n\nIteration    Objective       Primal Inf.    Dual Inf.      Time\n       0      handle free variables                          0s\n    1933    6.5727265e+05   0.000000e+00   0.000000e+00      0s\n\nSolved in 1933 iterations and 0.05 seconds (0.07 work units)\nOptimal objective  6.572726497e+05\nSTATUS 2\n",
+        "stdout": "Set parameter MIPGap to value 0.005\nGurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11+.0 (26200.2))\n\nCPU model: Intel(R) Core(TM) Ultra 9 275HX, instruction set [SSE2|AVX|AVX2]\nThread count: 24 physical cores, 24 logical processors, using up to 24 threads\n\nNon-default parameters:\nMIPGap  0.005\n\nOptimize a model with 9964 rows, 5064 columns and 19016 nonzeros\nModel fingerprint: 0xde062349\nCoefficient statistics:\n  Matrix range     [1e+00, 3e+03]\n  Objective range  [2e+01, 1e+04]\n  Bounds range     [0e+00, 0e+00]\n  RHS range        [9e+00, 7e+02]\nPresolve removed 7574 rows and 1440 columns\nPresolve time: 0.01s\nPresolved: 2390 rows, 3854 columns, 12114 nonzeros\n\nIteration    Objective       Primal Inf.    Dual Inf.      Time\n       0      handle free variables                          0s\n    1933    6.5727265e+05   0.000000e+00   0.000000e+00      0s\n\nSolved in 1933 iterations and 0.05 seconds (0.07 work units)\nOptimal objective  6.572726497e+05\nSTATUS 2\n",
         "stderr": ""
       }
     }
@@ -26,5 +26,20 @@
   },
   "execution_status": "success",
   "diagnostics": [],
-  "repair_requests": []
+  "repair_requests": [],
+  "publication_note": "Historical execution report; the published solver embeds identical input parameters instead of loading data.json; model equations and objective are unchanged.",
+  "standalone_verification": {
+    "status": "PASS",
+    "solver_status": 2,
+    "objective": 657272.6496923008,
+    "same_model_fingerprint": true,
+    "embedded_parameters_match_original": true,
+    "objective_change": 0.0,
+    "reference_objective": 657272.6496922988,
+    "reference_residuals": {
+      "max_row_violation": 3.1512570330960443e-11,
+      "worst_row": "dc_base1[40,23]",
+      "max_bound_violation": 0
+    }
+  }
 }

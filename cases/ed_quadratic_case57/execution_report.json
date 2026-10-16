@@ -5,8 +5,8 @@
   "attempts": [
     {
       "attempt_index": 1,
-      "script_path": "SOURCE_ROOT\\problems\\ed_quadratic_case57\\solve_model.py",
-      "data_path": "SOURCE_ROOT\\problems\\ed_quadratic_case57\\data.json",
+      "script_path": "solve_model.py",
+      "data_path": "data.json (parameters embedded in published solve_model.py)",
       "precheck": {
         "errors": [],
         "warnings": [],
@@ -14,7 +14,7 @@
       },
       "runtime": {
         "returncode": 0,
-        "stdout": "Set parameter Username\nSet parameter LicenseID to value [REDACTED]\nAcademic license - for non-commercial use only - expires 2026-10-21\nSet parameter MIPGap to value 0.005\nGurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11+.0 (26200.2))\n\nCPU model: Intel(R) Core(TM) Ultra 9 275HX, instruction set [SSE2|AVX|AVX2]\nThread count: 24 physical cores, 24 logical processors, using up to 24 threads\n\nNon-default parameters:\nMIPGap  0.005\n\nOptimize a model with 8834 rows, 3768 columns and 16780 nonzeros\nModel fingerprint: 0xf4c1e8d8\nModel has 264 quadratic objective terms\nCoefficient statistics:\n  Matrix range     [1e+00, 3e+03]\n  Objective range  [2e+01, 3e+01]\n  QObjective range [1e-03, 4e-03]\n  Bounds range     [0e+00, 0e+00]\n  RHS range        [8e+00, 8e+02]\nPresolve removed 6685 rows and 1632 columns\nPresolve time: 0.01s\nPresolved: 2149 rows, 2389 columns, 10023 nonzeros\nPresolved model has 264 quadratic objective terms\nOrdering time: 0.00s\n\nBarrier statistics:\n AA' NZ     : 1.515e+04\n Factor NZ  : 5.909e+04 (roughly 2 MB of memory)\n Factor Ops : 2.224e+06 (less than 1 second per iteration)\n Threads    : 1\n\n                  Objective                Residual\nIter       Primal          Dual         Primal    Dual     Compl     Time\n   0   1.85926383e+08 -5.47196287e+08  2.30e+03 1.00e+03  1.10e+06     0s\n   1   2.01442209e+06 -3.61449366e+08  3.15e+01 1.37e+01  8.85e+04     0s\n   2   6.86574394e+05 -1.02038980e+07  3.04e-01 1.32e-01  2.33e+03     0s\n   3   6.62730084e+05  5.16622194e+04  1.54e-02 6.68e-03  1.30e+02     0s\n   4   6.18776886e+05  4.88887084e+05  1.54e-08 6.68e-09  2.76e+01     0s\n   5   6.08968940e+05  5.93990581e+05  1.26e-09 5.48e-10  3.18e+00     0s\n   6   6.07958292e+05  6.05366986e+05  1.40e-10 6.06e-11  5.51e-01     0s\n   7   6.07815710e+05  6.07244778e+05  1.30e-10 9.34e-12  1.21e-01     0s\n   8   6.07784176e+05  6.07684956e+05  5.44e-11 1.39e-12  2.11e-02     0s\n   9   6.07777882e+05  6.07773391e+05  7.17e-11 1.01e-13  9.54e-04     0s\n  10   6.07777608e+05  6.07777276e+05  7.70e-10 6.71e-14  7.07e-05     0s\n  11   6.07777585e+05  6.07777584e+05  6.58e-09 8.52e-14  2.90e-07     0s\n  12   6.07777584e+05  6.07777584e+05  1.61e-11 9.60e-14  1.48e-08     0s\n  13   6.07777584e+05  6.07777584e+05  8.19e-10 6.89e-14  1.14e-09     0s\n\nBarrier solved model in 13 iterations and 0.02 seconds (0.04 work units)\nOptimal objective 6.07777584e+05\n\nSTATUS 2\n",
+        "stdout": "Set parameter MIPGap to value 0.005\nGurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11+.0 (26200.2))\n\nCPU model: Intel(R) Core(TM) Ultra 9 275HX, instruction set [SSE2|AVX|AVX2]\nThread count: 24 physical cores, 24 logical processors, using up to 24 threads\n\nNon-default parameters:\nMIPGap  0.005\n\nOptimize a model with 8834 rows, 3768 columns and 16780 nonzeros\nModel fingerprint: 0xf4c1e8d8\nModel has 264 quadratic objective terms\nCoefficient statistics:\n  Matrix range     [1e+00, 3e+03]\n  Objective range  [2e+01, 3e+01]\n  QObjective range [1e-03, 4e-03]\n  Bounds range     [0e+00, 0e+00]\n  RHS range        [8e+00, 8e+02]\nPresolve removed 6685 rows and 1632 columns\nPresolve time: 0.01s\nPresolved: 2149 rows, 2389 columns, 10023 nonzeros\nPresolved model has 264 quadratic objective terms\nOrdering time: 0.00s\n\nBarrier statistics:\n AA' NZ     : 1.515e+04\n Factor NZ  : 5.909e+04 (roughly 2 MB of memory)\n Factor Ops : 2.224e+06 (less than 1 second per iteration)\n Threads    : 1\n\n                  Objective                Residual\nIter       Primal          Dual         Primal    Dual     Compl     Time\n   0   1.85926383e+08 -5.47196287e+08  2.30e+03 1.00e+03  1.10e+06     0s\n   1   2.01442209e+06 -3.61449366e+08  3.15e+01 1.37e+01  8.85e+04     0s\n   2   6.86574394e+05 -1.02038980e+07  3.04e-01 1.32e-01  2.33e+03     0s\n   3   6.62730084e+05  5.16622194e+04  1.54e-02 6.68e-03  1.30e+02     0s\n   4   6.18776886e+05  4.88887084e+05  1.54e-08 6.68e-09  2.76e+01     0s\n   5   6.08968940e+05  5.93990581e+05  1.26e-09 5.48e-10  3.18e+00     0s\n   6   6.07958292e+05  6.05366986e+05  1.40e-10 6.06e-11  5.51e-01     0s\n   7   6.07815710e+05  6.07244778e+05  1.30e-10 9.34e-12  1.21e-01     0s\n   8   6.07784176e+05  6.07684956e+05  5.44e-11 1.39e-12  2.11e-02     0s\n   9   6.07777882e+05  6.07773391e+05  7.17e-11 1.01e-13  9.54e-04     0s\n  10   6.07777608e+05  6.07777276e+05  7.70e-10 6.71e-14  7.07e-05     0s\n  11   6.07777585e+05  6.07777584e+05  6.58e-09 8.52e-14  2.90e-07     0s\n  12   6.07777584e+05  6.07777584e+05  1.61e-11 9.60e-14  1.48e-08     0s\n  13   6.07777584e+05  6.07777584e+05  8.19e-10 6.89e-14  1.14e-09     0s\n\nBarrier solved model in 13 iterations and 0.02 seconds (0.04 work units)\nOptimal objective 6.07777584e+05\n\nSTATUS 2\n",
         "stderr": ""
       }
     }
@@ -27,5 +27,20 @@
   "execution_status": "success",
   "diagnostics": [],
   "repair_requests": [],
-  "optimal_value": 607777.584
+  "optimal_value": 607777.584,
+  "publication_note": "Historical execution report; the published solver embeds identical input parameters instead of loading data.json; model equations and objective are unchanged.",
+  "standalone_verification": {
+    "status": "PASS",
+    "solver_status": 2,
+    "objective": 607777.5843616611,
+    "same_model_fingerprint": true,
+    "embedded_parameters_match_original": true,
+    "objective_change": 0.0,
+    "reference_objective": 607777.5843559871,
+    "reference_residuals": {
+      "max_row_violation": 6.55077059263931e-09,
+      "worst_row": "balance_base1[22,21]",
+      "max_bound_violation": 0
+    }
+  }
 }

@@ -5,8 +5,8 @@
   "attempts": [
     {
       "attempt_index": 1,
-      "script_path": "SOURCE_ROOT\\problems\\ed_quadratic_case30\\solve_model.py",
-      "data_path": "SOURCE_ROOT\\problems\\ed_quadratic_case30\\data.json",
+      "script_path": "solve_model.py",
+      "data_path": "data.json (parameters embedded in published solve_model.py)",
       "precheck": {
         "errors": [],
         "warnings": [],
@@ -14,7 +14,7 @@
       },
       "runtime": {
         "returncode": 0,
-        "stdout": "Set parameter Username\nSet parameter LicenseID to value [REDACTED]\nAcademic license - for non-commercial use only - expires 2026-10-21\nSet parameter MIPGap to value 0.005\nGurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11+.0 (26200.2))\n\nCPU model: Intel(R) Core(TM) Ultra 9 275HX, instruction set [SSE2|AVX|AVX2]\nThread count: 24 physical cores, 24 logical processors, using up to 24 threads\n\nNon-default parameters:\nMIPGap  0.005\n\nOptimize a model with 4808 rows, 2016 columns and 9064 nonzeros\nModel fingerprint: 0x634ce52e\nModel has 192 quadratic objective terms\nCoefficient statistics:\n  Matrix range     [1e+00, 3e+03]\n  Objective range  [2e+01, 3e+01]\n  QObjective range [2e-03, 4e-03]\n  Bounds range     [0e+00, 0e+00]\n  RHS range        [8e+00, 6e+02]\nPresolve removed 3712 rows and 936 columns\nPresolve time: 0.00s\nPresolved: 1096 rows, 1264 columns, 4800 nonzeros\nPresolved model has 192 quadratic objective terms\nOrdering time: 0.00s\n\nBarrier statistics:\n AA' NZ     : 5.464e+03\n Factor NZ  : 2.149e+04 (roughly 1 MB of memory)\n Factor Ops : 4.965e+05 (less than 1 second per iteration)\n Threads    : 1\n\n                  Objective                Residual\nIter       Primal          Dual         Primal    Dual     Compl     Time\n   0   1.37681657e+08 -2.74738934e+08  3.96e+03 9.22e+02  1.08e+06     0s\n   1   4.00315076e+05 -1.66161257e+08  9.52e-01 2.21e-01  6.61e+04     0s\n   2   3.79561432e+05 -1.45837230e+07  8.44e-02 1.96e-02  5.92e+03     0s\n   3   3.52701738e+05 -5.37625767e+05  8.44e-08 1.96e-08  3.52e+02     0s\n   4   3.31661391e+05  3.06862938e+05  6.02e-10 1.40e-10  9.81e+00     0s\n   5   3.26578242e+05  3.23793495e+05  3.59e-11 8.15e-12  1.10e+00     0s\n   6   3.26171421e+05  3.25692741e+05  2.86e-11 1.24e-12  1.89e-01     0s\n   7   3.26106172e+05  3.26001872e+05  1.24e-10 1.80e-13  4.13e-02     0s\n   8   3.26094204e+05  3.26089417e+05  3.19e-10 9.05e-14  1.89e-03     0s\n   9   3.26093767e+05  3.26093740e+05  4.57e-11 8.04e-14  1.06e-05     0s\n  10   3.26093765e+05  3.26093764e+05  6.00e-10 9.59e-14  1.23e-08     0s\n  11   3.26093765e+05  3.26093765e+05  7.56e-10 8.26e-14  1.23e-11     0s\n\nBarrier solved model in 11 iterations and 0.01 seconds (0.01 work units)\nOptimal objective 3.26093765e+05\n\nSTATUS 2\n",
+        "stdout": "Set parameter MIPGap to value 0.005\nGurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11+.0 (26200.2))\n\nCPU model: Intel(R) Core(TM) Ultra 9 275HX, instruction set [SSE2|AVX|AVX2]\nThread count: 24 physical cores, 24 logical processors, using up to 24 threads\n\nNon-default parameters:\nMIPGap  0.005\n\nOptimize a model with 4808 rows, 2016 columns and 9064 nonzeros\nModel fingerprint: 0x634ce52e\nModel has 192 quadratic objective terms\nCoefficient statistics:\n  Matrix range     [1e+00, 3e+03]\n  Objective range  [2e+01, 3e+01]\n  QObjective range [2e-03, 4e-03]\n  Bounds range     [0e+00, 0e+00]\n  RHS range        [8e+00, 6e+02]\nPresolve removed 3712 rows and 936 columns\nPresolve time: 0.00s\nPresolved: 1096 rows, 1264 columns, 4800 nonzeros\nPresolved model has 192 quadratic objective terms\nOrdering time: 0.00s\n\nBarrier statistics:\n AA' NZ     : 5.464e+03\n Factor NZ  : 2.149e+04 (roughly 1 MB of memory)\n Factor Ops : 4.965e+05 (less than 1 second per iteration)\n Threads    : 1\n\n                  Objective                Residual\nIter       Primal          Dual         Primal    Dual     Compl     Time\n   0   1.37681657e+08 -2.74738934e+08  3.96e+03 9.22e+02  1.08e+06     0s\n   1   4.00315076e+05 -1.66161257e+08  9.52e-01 2.21e-01  6.61e+04     0s\n   2   3.79561432e+05 -1.45837230e+07  8.44e-02 1.96e-02  5.92e+03     0s\n   3   3.52701738e+05 -5.37625767e+05  8.44e-08 1.96e-08  3.52e+02     0s\n   4   3.31661391e+05  3.06862938e+05  6.02e-10 1.40e-10  9.81e+00     0s\n   5   3.26578242e+05  3.23793495e+05  3.59e-11 8.15e-12  1.10e+00     0s\n   6   3.26171421e+05  3.25692741e+05  2.86e-11 1.24e-12  1.89e-01     0s\n   7   3.26106172e+05  3.26001872e+05  1.24e-10 1.80e-13  4.13e-02     0s\n   8   3.26094204e+05  3.26089417e+05  3.19e-10 9.05e-14  1.89e-03     0s\n   9   3.26093767e+05  3.26093740e+05  4.57e-11 8.04e-14  1.06e-05     0s\n  10   3.26093765e+05  3.26093764e+05  6.00e-10 9.59e-14  1.23e-08     0s\n  11   3.26093765e+05  3.26093765e+05  7.56e-10 8.26e-14  1.23e-11     0s\n\nBarrier solved model in 11 iterations and 0.01 seconds (0.01 work units)\nOptimal objective 3.26093765e+05\n\nSTATUS 2\n",
         "stderr": ""
       }
     }
@@ -26,5 +26,20 @@
   },
   "execution_status": "success",
   "diagnostics": [],
-  "repair_requests": []
+  "repair_requests": [],
+  "publication_note": "Historical execution report; the published solver embeds identical input parameters instead of loading data.json; model equations and objective are unchanged.",
+  "standalone_verification": {
+    "status": "PASS",
+    "solver_status": 2,
+    "objective": 326093.76450431056,
+    "same_model_fingerprint": true,
+    "embedded_parameters_match_original": true,
+    "objective_change": 0.0,
+    "reference_objective": 326093.76450479275,
+    "reference_residuals": {
+      "max_row_violation": 9.845461335089567e-09,
+      "worst_row": "balance_base1[11,6]",
+      "max_bound_violation": 0
+    }
+  }
 }
